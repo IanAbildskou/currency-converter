@@ -1,0 +1,13 @@
+It would be cool to fetch fresh data every minute or so, so the rates are always up to date. (and show when the last fetch took place).
+I understand that time is of the essence especially with the crypto currencies.
+
+You could also do the conversion on input onChange so you wouldn't have to click "convert".
+In that case I should add a debounce function to maintain performance.
+
+I could extract the drops downs into their own component to avoid duplicate code.
+
+I could add a loading spinner for both fetching and calculating conversion.
+
+I could finish the more advanced conversion algorithm (the one commented out) to make integration with other datasets easy.
+
+It would also be nice to add symbols for each currency.
